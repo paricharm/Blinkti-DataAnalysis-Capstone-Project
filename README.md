@@ -1,193 +1,212 @@
 # 📊 Blinkit Data Analysis Capstone Project
 
+An end-to-end Business Intelligence and Data Analytics project on Blinkit Grocery Sales using **Excel, SQL, and Power BI**. This project analyzes sales performance, customer purchasing behavior, outlet performance, and product trends to generate actionable business insights through interactive dashboards and SQL-based analysis.
+
+---
+
 ## 📌 Project Overview
 
-This project presents an end-to-end exploratory data analysis (EDA) of Blinkit's grocery sales data. The objective is to uncover business insights related to product performance, customer preferences, outlet characteristics, and sales trends using Python and data visualization techniques.
+The objective of this project is to analyze Blinkit's grocery sales data to answer key business questions and support data-driven decision making.
 
-Through data cleaning, preprocessing, visualization, and statistical analysis, this project identifies key factors influencing sales and provides actionable recommendations for improving business performance.
+The project demonstrates the complete analytics workflow, including:
 
----
-
-## 🎯 Objectives
-
-- Perform data cleaning and preprocessing.
-- Analyze product and outlet performance.
-- Identify factors affecting sales.
-- Discover customer purchasing patterns.
-- Create meaningful visualizations for business insights.
-- Provide data-driven recommendations.
+- Business Requirement Analysis
+- Data Cleaning
+- SQL Query Analysis
+- Excel Dashboard & Analysis
+- Power BI Interactive Dashboard
+- Business Insights & Recommendations
 
 ---
 
-## 📂 Dataset
+## 🎯 Business Objectives
 
-The dataset contains information about Blinkit's grocery products and outlets.
-
-### Features include:
-
-- Item Identifier
-- Item Weight
-- Item Fat Content
-- Item Visibility
-- Item Type
-- Item MRP
-- Outlet Identifier
-- Outlet Establishment Year
-- Outlet Size
-- Outlet Location Type
-- Outlet Type
-- Sales
+- Analyze overall sales performance.
+- Identify top-performing product categories.
+- Compare outlet performance across different locations.
+- Evaluate the impact of outlet size and type.
+- Understand customer purchasing trends.
+- Generate insights to improve business decisions.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tools & Technologies
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Microsoft Excel
+- SQL
+- Power BI
+- Microsoft PowerPoint
+- Microsoft Word
+
+---
+
+## 📂 Repository Structure
+
+```
+Blinkti-DataAnalysis-Capstone-Project
+│
+├── Blinkit/
+│   │
+│   ├── BlinkIT Grocery Raw Data/
+│   │      └── Raw Dataset
+│   │
+│   ├── Blinkit DataAnalysis using Excel.xlsx
+│   │      └── Excel Analysis & Dashboard
+│   │
+│   ├── Blinkit DataAnalysis using SQL.sql
+│   │      └── SQL Queries
+│   │
+│   ├── Blinkit DataAnalysis using PowerBI.pbix
+│   │      └── Interactive Power BI Dashboard
+│   │
+│   ├── Business Requirement.pptx
+│   │      └── Business Problem Statement
+│   │
+│   └── Query Doc.docx
+│          └── SQL Query Documentation
+│
+└── README.md
+```
 
 ---
 
 ## 📊 Project Workflow
 
-1. Import Libraries
-2. Load Dataset
-3. Data Cleaning
-4. Handling Missing Values
-5. Data Preprocessing
-6. Exploratory Data Analysis (EDA)
-7. Data Visualization
-8. Business Insights
-9. Final Recommendations
+### 1️⃣ Business Understanding
+
+- Understanding business requirements
+- Defining KPIs
+- Identifying business problems
 
 ---
 
-## 📈 Exploratory Data Analysis
+### 2️⃣ Data Preparation
 
-The analysis includes:
-
-- Missing value analysis
-- Univariate analysis
-- Bivariate analysis
-- Correlation analysis
-- Sales distribution
-- Product category analysis
-- Outlet-wise sales analysis
-- Location-wise sales comparison
-- Outlet type performance
-- Item fat content analysis
+- Importing raw data
+- Cleaning missing values
+- Standardizing data
+- Preparing data for analysis
 
 ---
 
-## 📌 Key Insights
+### 3️⃣ SQL Analysis
 
-- Identified the best-performing product categories.
-- Compared sales across different outlet types.
-- Analyzed the impact of outlet size and location on sales.
-- Studied pricing trends using Item MRP.
-- Found relationships between product visibility and sales.
-- Evaluated customer preferences based on product attributes.
+SQL was used to answer business questions such as:
 
----
-
-## 📷 Visualizations
-
-The project contains multiple visualizations including:
-
-- Bar Charts
-- Count Plots
-- Histograms
-- Box Plots
-- Pie Charts
-- Heatmaps
-- Scatter Plots
-- Distribution Plots
-
-These visualizations help communicate business insights effectively.
+- Total Sales
+- Average Sales
+- Number of Items Sold
+- Sales by Item Type
+- Sales by Outlet Type
+- Sales by Outlet Size
+- Sales by Location
+- Top Performing Categories
 
 ---
 
-## 📁 Project Structure
+### 4️⃣ Excel Analysis
 
-```
-Blinkit-DataAnalysis-Capstone-Project/
-│
-├── Data/
-│   └── blinkit_dataset.csv
-│
-├── Notebook/
-│   └── Blinkit_Data_Analysis.ipynb
-│
-├── Images/
-│   └── Visualizations
-│
-├── README.md
-│
-└── requirements.txt
-```
+Excel was used for:
+
+- Pivot Tables
+- Pivot Charts
+- KPI Calculations
+- Data Cleaning
+- Dashboard Creation
 
 ---
 
-## 🚀 How to Run
+### 5️⃣ Power BI Dashboard
 
-### Clone the repository
+Interactive dashboard includes:
+
+- Total Sales
+- Average Sales
+- Number of Products
+- Average Rating
+- Sales by Outlet Type
+- Sales by Outlet Size
+- Sales by Fat Content
+- Sales by Item Category
+- Sales by Outlet Location
+- Outlet Establishment Trends
+
+---
+
+## 📈 Key KPIs
+
+- Total Sales
+- Average Sales
+- Number of Items
+- Average Rating
+- Sales by Product Category
+- Sales by Outlet Size
+- Sales by Outlet Type
+- Sales by Location
+
+---
+
+## 📌 Key Business Insights
+
+- Identified the highest revenue-generating product categories.
+- Compared sales across different outlet types and sizes.
+- Evaluated the influence of outlet locations on revenue.
+- Analyzed customer preferences based on product categories.
+- Identified opportunities for inventory optimization.
+- Generated actionable recommendations for business growth.
+
+---
+
+## 📁 Project Files
+
+| File | Description |
+|------|-------------|
+| **BlinkIT Grocery Raw Data** | Original dataset used for analysis |
+| **Blinkit DataAnalysis using Excel.xlsx** | Excel analysis with dashboards |
+| **Blinkit DataAnalysis using SQL.sql** | SQL queries for business analysis |
+| **Blinkit DataAnalysis using PowerBI.pbix** | Interactive Power BI dashboard |
+| **Business Requirement.pptx** | Business requirements and objectives |
+| **Query Doc.docx** | Documentation of SQL queries |
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository.
 
 ```bash
 git clone https://github.com/paricharm/Blinkti-DataAnalysis-Capstone-Project.git
 ```
 
-### Navigate to the project
+2. Open the project folder.
 
-```bash
-cd Blinkti-DataAnalysis-Capstone-Project
-```
+3. Explore the files:
 
-### Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open the notebook and run all cells.
-
----
-
-## 📌 Business Recommendations
-
-- Focus inventory on high-performing product categories.
-- Improve visibility strategies for underperforming items.
-- Expand successful outlet formats into new locations.
-- Optimize pricing strategies based on sales trends.
-- Use customer purchasing behavior to improve product placement.
+- Open **Business Requirement.pptx** to understand the project objectives.
+- Run the queries in **Blinkit DataAnalysis using SQL.sql** using your preferred SQL environment.
+- Open **Blinkit DataAnalysis using Excel.xlsx** to view the Excel analysis and dashboard.
+- Open **Blinkit DataAnalysis using PowerBI.pbix** in Power BI Desktop to explore the interactive dashboard.
 
 ---
 
 ## 📚 Learning Outcomes
 
-This project demonstrates practical skills in:
+Through this project, I gained practical experience in:
 
+- Business Requirement Analysis
 - Data Cleaning
-- Exploratory Data Analysis
+- SQL Query Writing
 - Data Visualization
+- Dashboard Development
+- KPI Analysis
 - Business Intelligence
-- Statistical Analysis
-- Python for Data Analytics
+- Power BI Reporting
+- Excel Analytics
 
 ---
 
-## 👨‍💻 Author
+## 👤 Author
 
 **Paricharm**
 
-GitHub: https://github.com/paricharm
-
----
+If you found this project helpful, consider giving the repository a ⭐.
